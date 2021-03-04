@@ -1,6 +1,4 @@
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\MySchoolApp.iOS.exe
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\EntityFramework.SqlServer.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\EntityFramework.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.EntityFrameworkCore.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.Extensions.Caching.Abstractions.dll
@@ -11,7 +9,6 @@ C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Rel
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.Extensions.Options.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Microsoft.Extensions.Primitives.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\ModernHttpClient.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Newtonsoft.Json.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\SQLite-net.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\SQLitePCLRaw.batteries_v2.dll
@@ -19,16 +16,10 @@ C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Rel
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\SQLitePCLRaw.core.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Buffers.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.CodeDom.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Collections.Immutable.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Configuration.ConfigurationManager.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Data.SqlClient.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Memory.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Security.AccessControl.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Security.Permissions.dll
-C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\System.Security.Principal.Windows.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Plugin.Media.dll
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Plugin.Media.pdb
 C:\Users\Admin7\source\repos\MySchoolApp\MySchoolApp.iOS\bin\iPhoneSimulator\Release\Xamarin.Essentials.dll
