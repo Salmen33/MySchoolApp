@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySchoolApp.Pages.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="50">
+
+            <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" CornerRadius="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Entry x:Name="EmailField" Placeholder="Enter Email" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+
+                    <Entry x:Name="PasswordField" Placeholder="Enter Password" IsPassword="True" Grid.Row="2" Grid.Column="0" 
+                           Grid.ColumnSpan="2"/>
+
+                    <Button Text="Login" Grid.Row="4" Grid.Column="0" Clicked="OnLoginButtonClicked"/>
+                    <Button Text="Contact Staff" Grid.Row="4" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

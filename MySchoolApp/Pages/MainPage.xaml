@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySchoolApp.Pages.MainPage"
+             xmlns:local ="clr-namespace:MySchoolApp"
+             BackgroundImageSource="{local:ImageResource MySchoolApp.Assets.Image.background2.jpg}">
+
+    <RefreshView IsRefreshing="{Binding IsRefresing}"
+                 Command="{Binding RefreshHomePageCommand}">
+        <ScrollView Orientation="Vertical">
+            <StackLayout Padding="20" Orientation="Vertical">
+                <Label Text="{Binding Name}" TextColor="White" FontSize="25" Margin="0, 20, 0, 0"/>
+                <Label Text="{Binding NISN}" TextColor="WhiteSmoke" FontSize="15"/>
+                <Label Text="{Binding Today}" FontSize="15" TextColor="WhiteSmoke" Margin="0, 0, 0, 30"/>
+                <Frame CornerRadius="20" HasShadow="True">
+                    <Grid BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Saldo" TextColor="Black" HorizontalTextAlignment="Center" VerticalOptions="Center"
+                   Grid.Row="0" Grid.Column="0"  FontSize="20"/>
+                        <Label Text="{Binding Balance, Mode=TwoWay}" TextColor="Black"  VerticalOptions="Center" Grid.ColumnSpan="2"
+                   Grid.Row="0" Grid.Column="2" FontSize="20" HorizontalOptions="End" Margin="0, 0, 20, 0"/>
+
+                        <Button Text="Isi Saldo" BackgroundColor="Transparent" Grid.Column="0" Grid.Row="1" FontSize="15" 
+                        VerticalOptions="Center" Grid.ColumnSpan="1" HorizontalOptions="Center"
+                        Command="{Binding RechargeCommand}"/>
+
+                        <Button Text="Administrasi" Grid.Column="1" Grid.Row="1" FontSize="15" VerticalOptions="Center"
+                       Grid.ColumnSpan="2" HorizontalOptions="Center" BackgroundColor="Transparent" 
+                        Command="{Binding AdministrasionCommand}"/>
+
+                        <Button Text="Absen" Grid.Column="3" Grid.Row="1" FontSize="15" VerticalOptions="Center"
+                        Grid.ColumnSpan="1" HorizontalOptions="Center" BackgroundColor="Transparent" 
+                        Command="{Binding AbsenCommand}"/>
+                    </Grid>
+                </Frame>
+
+                <Frame HasShadow="True" CornerRadius="14">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Acara Sekolah" FontSize="25" TextColor="Black"/>
+
+                        <Button Text="Test" Command="{Binding TestCommand}"/>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+
+        </ScrollView>
+    </RefreshView>
+</ContentPage>
